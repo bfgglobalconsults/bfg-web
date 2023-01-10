@@ -1,0 +1,11 @@
+const String homeRoute = "/home";
+const String aboutRoute = "/about";
+const String contactRoute = "/contact";
+const String shopRoute = "/shop";
+const String productRoute = "/product-detail";
+const String exploreRoute = "/explore";
+const String faqRoute = "/faqs";
+const String accountRoute = "/account";
+const String loginRoute = "/account/login";
+const String registerRoute = "/account/register";
+const String cartRoute = "/cart";
