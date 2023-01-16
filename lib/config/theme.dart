@@ -99,7 +99,7 @@ class AppTheme {
 }
 
 class Fonts {
-  static const primary = "OpenSans";
+  static const primary = "Baskervville";
 }
 
 class Insets {
@@ -145,7 +145,7 @@ class IconSizes {
 class TextStyles {
   ///h3
   static const TextStyle h1 =
-      TextStyle(fontSize: 32, fontWeight: FontWeight.w700);
+      TextStyle(fontSize: 32, fontWeight: FontWeight.w900);
 
   ///h2
   static const TextStyle h2 =
