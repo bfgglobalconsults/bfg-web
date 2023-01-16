@@ -40,6 +40,22 @@ class $AssetsImagesGen {
   /// File path: assets/images/error.png
   AssetGenImage get error => const AssetGenImage('assets/images/error.png');
 
+  /// File path: assets/images/header1.jpg
+  AssetGenImage get header1 => const AssetGenImage('assets/images/header1.jpg');
+
+  /// File path: assets/images/header2.jpg
+  AssetGenImage get header2 => const AssetGenImage('assets/images/header2.jpg');
+
+  /// File path: assets/images/header3.jpeg
+  AssetGenImage get header3 =>
+      const AssetGenImage('assets/images/header3.jpeg');
+
+  /// File path: assets/images/header4.png
+  AssetGenImage get header4 => const AssetGenImage('assets/images/header4.png');
+
+  /// File path: assets/images/header5.png
+  AssetGenImage get header5 => const AssetGenImage('assets/images/header5.png');
+
   /// File path: assets/images/img-slider-02.jpeg
   AssetGenImage get imgSlider02 =>
       const AssetGenImage('assets/images/img-slider-02.jpeg');
@@ -48,7 +64,8 @@ class $AssetsImagesGen {
   AssetGenImage get logo => const AssetGenImage('assets/images/logo.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [error, imgSlider02, logo];
+  List<AssetGenImage> get values =>
+      [error, header1, header2, header3, header4, header5, imgSlider02, logo];
 }
 
 class $AssetsIconsBulkGen {

@@ -39,8 +39,8 @@ class _CenteredViewState extends State<CenteredView> {
               widget.child,
               Positioned(
                 // width: context.width,
-                height: 60,
-                top: 10,
+                height: 80,
+                top: 0,
                 left: 0,
                 right: 0,
                 child: ScreenTypeLayout(

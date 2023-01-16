@@ -17,20 +17,19 @@ class NavBarTabletDesktop extends StatelessWidget {
     var width = MediaQuery.of(context).size.width;
     return Container(
       decoration: BoxDecoration(color: AppColors.white, boxShadow: [
-        BoxShadow(
-          spreadRadius: 5,
-          blurRadius: 14,
-          color: Colors.grey.shade700,
-        ),
+        // BoxShadow(
+        //   spreadRadius: 5,
+        //   blurRadius: 14,
+        //   color: Colors.grey.shade700,
+        // ),
       ]),
       padding: const EdgeInsets.symmetric(horizontal: Insets.xl),
-      margin: const EdgeInsets.symmetric(horizontal: Insets.xl),
-      height: 60,
+      // margin: const EdgeInsets.symmetric(horizontal: Insets.xl),
+      height: 80,
       width: width,
       child: Row(
         children: const [
-          // NavbarLogo(),
-
+          NavbarLogo(),
           NavBarItem(
             label: 'Home',
             navigationPath: homeRoute,
